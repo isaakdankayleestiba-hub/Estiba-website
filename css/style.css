@@ -1,3 +1,15 @@
+/* Color Palette
+Deep navy: #0B1F3A
+Electric blue: #1E6BFF
+teal: #14B8A6
+light gray: #F3F5F8
+white: #FFFFFF
+
+
+*/
+
+
+
 body {
     font-family: 'Inter', sans-serif;
     color: #0B1F3A;
@@ -19,7 +31,7 @@ h1, h2, h3 {
 
 header {
     background-color: #0B1F3A;
-    padding: 15px 30px;
+    padding: 10px 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -33,10 +45,41 @@ nav {
 nav a {
     color: #FFFFFF;
     text-decoration: none;
-    padding:  8px 12px
+    padding:  5px 12px
 }
 
 nav a:hover {
     color: #14B8A6;
 
+}
+
+#hero {
+    background-color: #F3F5F8;
+    text-align: center;
+    padding: 80px 20px;
+
+}
+
+#hero h1 {
+    font-size: 45px;
+    margin: 0 0 15px 0;
+}
+
+#hero p {
+    font-size: 19px;
+    margin: 1px 1px 30px 1px;
+}
+
+.button {
+    display: inline-block;
+    background-color:#14B8A6;
+    color:#FFFFFF;
+    text-decoration: none;
+    font-weight: 800;
+    padding: 14px 30px;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: #0B1F3A;
 }
