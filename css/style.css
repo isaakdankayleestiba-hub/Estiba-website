@@ -88,15 +88,27 @@ main {
     background-color: #FFFFFF;
 }
 
-#about {
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#highlights {
+    display: contents;
+}
+.cards #about {
     background-color: #FFFFFF;
-    width: 400px;
-    height: 150px;
+    width: auto;
+    height: auto;
     padding: 25px;
     border-radius: 10px;
     border-top: 6px solid #14B8A6;
     box-shadow: 0 2px 8px #CCCCCC;
-    margin: 50px 10px 10px 10px;
+    margin: 0;
 }
 
 #about p {
@@ -123,15 +135,15 @@ main {
     box-shadow: 0 2px 8px #CCCCCC;
 }
 */
-.price {
+.cards .price {
     background-color: #FFFFFF;
-    width: 400px;
-    height: 150px;
+    width: auto;
+    height: auto;
     padding: 25px;
     border-radius: 10px;
     border-top: 6px solid #14B8A6;
     box-shadow: 0 2px 8px #CCCCCC;
-    margin: 50px 10px 10px 10px;
+    margin: 0;
 }
 
 .price h3 {
@@ -159,15 +171,15 @@ main {
 }
 */
 
-.booking {
+.cards .booking {
     background-color: #FFFFFF;
-    width: 400px;
-    height: 150px;
+    width: auto;
+    height: auto;
     padding: 25px;
     border-radius: 10px;
     border-top: 6px solid #14B8A6;
     box-shadow: 0 2px 8px #CCCCCC;
-    margin: 50px 10px 10px 10px;
+    margin: 0;
 }
 
 .booking h3 {
@@ -196,15 +208,15 @@ main {
 }
 */
 
-.feedback {
+.cards .feedback {
     background-color: #FFFFFF;
-    width: 400px;
-    height: 150px;
+    width: auto;
+    height: auto;
     padding: 25px;
     border-radius: 10px;
     border-top: 6px solid #14B8A6;
     box-shadow: 0 2px 8px #CCCCCC;
-    margin: 50px 10px 10px 10px;
+    margin: 0;
     
 }
 
