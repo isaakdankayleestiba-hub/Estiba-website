@@ -16,7 +16,7 @@ body {
     margin: 0;
 }
 h1, h2, h3 {
-    font-family: 'Popppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 700;
 }
 
@@ -82,4 +82,153 @@ nav a:hover {
 
 .button:hover {
     background-color: #0B1F3A;
+}
+
+main {
+    background-color: #FFFFFF;
+}
+
+#about {
+    background-color: #FFFFFF;
+    width: 400px;
+    height: 150px;
+    padding: 25px;
+    border-radius: 10px;
+    border-top: 6px solid #14B8A6;
+    box-shadow: 0 2px 8px #CCCCCC;
+    margin: 50px 10px 10px 10px;
+}
+
+#about p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+#about h2 {
+    text-transform: uppercase;
+    margin: 0 0 10px 0;
+}
+
+#about:hover {
+    border-top: 6px solid#0B1F3A;
+}
+/*
+#price {
+    background-color: #FFFFFF;
+    max-width: 870px;
+    margin: 40px auto 0 auto;
+    padding: 25px;
+    border-top: 6px solid #14B8A6;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #CCCCCC;
+}
+*/
+.price {
+    background-color: #FFFFFF;
+    width: 400px;
+    height: 150px;
+    padding: 25px;
+    border-radius: 10px;
+    border-top: 6px solid #14B8A6;
+    box-shadow: 0 2px 8px #CCCCCC;
+    margin: 50px 10px 10px 10px;
+}
+
+.price h3 {
+    text-transform: uppercase;
+    margin: 0 0 10px 0;
+}
+
+.price p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+.price:hover {
+    border-top: 6px solid#0B1F3A;
+}
+/*
+.booking {
+    background-color: #FFFFFF;
+    max-width: 870px;
+    margin: 40px auto 0 auto;
+    padding: 25px;
+    border-top: 6px solid #14B8A6;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #CCCCCC;
+}
+*/
+
+.booking {
+    background-color: #FFFFFF;
+    width: 400px;
+    height: 150px;
+    padding: 25px;
+    border-radius: 10px;
+    border-top: 6px solid #14B8A6;
+    box-shadow: 0 2px 8px #CCCCCC;
+    margin: 50px 10px 10px 10px;
+}
+
+.booking h3 {
+    text-transform: uppercase;
+    margin: 0 0 10px 0;
+}
+
+.booking p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+.booking:hover {
+    border-top: 6px solid#0B1F3A;
+}
+
+/*
+.feedback {
+    background-color: #FFFFFF;
+    max-width: 870px;
+    margin: 40px auto 0 auto;
+    padding: 25px;
+    border-top: 6px solid #14B8A6;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #CCCCCC;
+}
+*/
+
+.feedback {
+    background-color: #FFFFFF;
+    width: 400px;
+    height: 150px;
+    padding: 25px;
+    border-radius: 10px;
+    border-top: 6px solid #14B8A6;
+    box-shadow: 0 2px 8px #CCCCCC;
+    margin: 50px 10px 10px 10px;
+    
+}
+
+.feedback h3 {
+    text-transform: uppercase;
+    margin: 0 0 10px 0;
+}
+
+.feedback p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+.feedback:hover {
+    border-top: 6px solid #0B1F3A;
+}
+
+footer{
+    background-color: #0B1F3A;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 25px 20px;
+}
+
+footer p {
+    margin: 6px 0;
 }
