@@ -124,17 +124,16 @@ main {
 #about:hover {
     border-top: 6px solid#0B1F3A;
 }
-/*
-#price {
+
+#about img {
+    height: 65px;
+    width: auto;
+    display: block;
+    border-radius: 8px;
+    padding: 4px;
     background-color: #FFFFFF;
-    max-width: 870px;
-    margin: 40px auto 0 auto;
-    padding: 25px;
-    border-top: 6px solid #14B8A6;
-    border-radius: 10px;
-    box-shadow: 0 2px 8px #CCCCCC;
 }
-*/
+
 .cards .price {
     background-color: #FFFFFF;
     width: auto;
@@ -159,17 +158,6 @@ main {
 .price:hover {
     border-top: 6px solid#0B1F3A;
 }
-/*
-.booking {
-    background-color: #FFFFFF;
-    max-width: 870px;
-    margin: 40px auto 0 auto;
-    padding: 25px;
-    border-top: 6px solid #14B8A6;
-    border-radius: 10px;
-    box-shadow: 0 2px 8px #CCCCCC;
-}
-*/
 
 .cards .booking {
     background-color: #FFFFFF;
@@ -180,6 +168,15 @@ main {
     border-top: 6px solid #14B8A6;
     box-shadow: 0 2px 8px #CCCCCC;
     margin: 0;
+}
+
+.price img {
+    height: 65px;
+    width: auto;
+    display: block;
+    border-radius: 8px;
+    padding: 4px;
+    background-color: #FFFFFF;
 }
 
 .booking h3 {
@@ -196,17 +193,14 @@ main {
     border-top: 6px solid#0B1F3A;
 }
 
-/*
-.feedback {
+.booking img {
+    height: 65px;
+    width: auto;
+    display: block;
+    border-radius: 8px;
+    padding: 4px;
     background-color: #FFFFFF;
-    max-width: 870px;
-    margin: 40px auto 0 auto;
-    padding: 25px;
-    border-top: 6px solid #14B8A6;
-    border-radius: 10px;
-    box-shadow: 0 2px 8px #CCCCCC;
 }
-*/
 
 .cards .feedback {
     background-color: #FFFFFF;
@@ -232,6 +226,15 @@ main {
 
 .feedback:hover {
     border-top: 6px solid #0B1F3A;
+}
+
+.feedback img {
+    height: 65px;
+    width: auto;
+    display: block;
+    border-radius: 8px;
+    padding: 4px;
+    background-color: #FFFFFF;
 }
 
 footer{
