@@ -263,3 +263,13 @@ footer p {
     gap: 5px;
    }  
 }
+
+/* SERVICES CARDS */
+
+#services {
+    max-width: 900px;
+    margin: 20px auto 40px auto;
+    padding: 20px;
+    text-align: center;
+}
+
