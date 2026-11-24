@@ -72,10 +72,10 @@ nav a:hover {
 
 .button {
     display: inline-block;
-    background-color:#14B8A6;
+    background-color:#1E6BFF;
     color:#FFFFFF;
     text-decoration: none;
-    font-weight: 800;
+    font-weight: 700;
     padding: 14px 30px;
     border-radius: 10px;
 }
@@ -248,22 +248,6 @@ footer p {
     margin: 6px 0;
 }
 
-@media (max-width: 700px) {
-    .cards {
-        grid-template-columns: 1fr;
-    }
-   header {
-    flex-direction: row;
-    gap: 10px;
-    padding: 10px 15px;
-   }
-   nav {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 5px;
-   }  
-}
-
 /* SERVICES CARDS */
 
 #services {
@@ -326,4 +310,64 @@ footer p {
 
 html {
     scroll-behavior: smooth;
+}
+
+.booking-form {
+    margin-top: 20px;
+}
+
+.booking-form label {
+    display: block;
+    margin: 15px 0px 5px 0;
+    font-weight: 700;
+}
+
+.booking-form input, .booking-form select, .booking-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #CCCCCC;
+    border-radius: 8px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.booking-form input:focus, .booking-form select:focus, .booking-form textarea:focus {
+    border-color: #14B8A6;
+    outline: none;
+}
+
+.booking-form button {
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 700px) {
+    .cards {
+        grid-template-columns: 1fr;
+    }
+   header {
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px 15px;
+   }
+   nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+   }  
 }
