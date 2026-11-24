@@ -15,11 +15,11 @@
             <img src="images/ByteFix.png" alt="ByteFix logo">
         </div>
         <nav class="menu">
-            <a href="#">Home</a>
-            <a href="#">Services</a>
-            <a href="#">About Us</a>
-            <a href="#">Book a Repair</a>
-            <a href="#">Contact</a>
+            <a href="#hero">Home</a>
+            <a href="#services">Services</a>
+            <a href="#about">About Us</a>
+            <a href="#booking">Book a Repair</a>
+            <a href="#contact">Contact</a>
         </nav>
     </header>
     <main>
@@ -28,7 +28,7 @@
             <section id="hero">
                 <h1>Fast, Honest Computer Repair</h1>
                 <p>Check our services, see starting prices, and book your repair online.</p>
-                <a href="#" class="button">Book a repair</a>
+                <a href="#booking" class="button">Book a repair</a>
             </section>
         <div class="cards">
             <!--about section-->
@@ -94,10 +94,22 @@
                         </div>
                     </section>
                 </div>
-                <div class="booking">
+                <div class="booking" id="booking">
                     <img src="images/booking.png" alt="booking">
                     <h3>Online Booking</h3>
                     <p>Submit your repair request using simple form.</p>
+
+                    <form class="booking-form">
+                        <input type="text" id="name" name="name" required>
+
+                        <input type="tel" id="phone" name="phone" required>
+
+                        <select id="device" name="device">
+                            <option>Laptop</option>
+                            <option>Desktop</option>
+                            <option>Other</option>
+                        </select>
+                    </form>
                 </div>
                 <div class="feedback">
                     <img src="images/feedback.png" alt="feedback">
@@ -108,7 +120,7 @@
         </div>
     </main>
 
-    <footer>
+    <footer id="contact">
         <p>Phone Number: 09991234567 | Email: isaakdankayleestiba@gmail.com</p>
         <p>&copy; 2026 ByteFix.</p>
         <p>Developed by bai Isaak Dankayle V. Estiba</p>

@@ -321,3 +321,9 @@ footer p {
 .read-more:hover {
     color: #0B1F3A;
 }
+
+/* make the nav smoother*/
+
+html {
+    scroll-behavior: smooth;
+}
