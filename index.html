@@ -100,15 +100,23 @@
                     <p>Submit your repair request using simple form.</p>
 
                     <form class="booking-form">
+                        <label for="name">Name:</label>
                         <input type="text" id="name" name="name" required>
 
+                        <label for="phone">Phone Number:</label>
                         <input type="tel" id="phone" name="phone" required>
 
+                        <label for="device">Device</label>
                         <select id="device" name="device">
                             <option>Laptop</option>
                             <option>Desktop</option>
                             <option>Other</option>
                         </select>
+
+                        <label for="problem">Describe the problem:</label>
+                        <textarea name="problem" id="problem" rows="4" required></textarea>
+
+                        <button type="submit" class="button">Send request</button>
                     </form>
                 </div>
                 <div class="feedback">
