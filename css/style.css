@@ -278,9 +278,9 @@ footer p {
     margin: 0 0 10px 0;
 }
 
-#service-list {
+.service-list {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 30px;
     margin-top: 25px;
 }
