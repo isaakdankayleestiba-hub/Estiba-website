@@ -344,10 +344,42 @@ html {
     font-size: 16px;
 }
 
+details summary {
+    cursor: pointer;
+}
 
+.close{
+    display: none;
+}
 
+details[open] .open {
+    display: none;
+}
 
+details[open] .close {
+    display: inline;
+}
 
+.more {
+    text-align: left;
+    margin-top: 12px;
+    padding: 15px;
+    background-color: #F3F5F8;
+    border-radius: 8px;
+}
+
+.more p {
+    margin: 0 0 10px 0;
+    font-size: 14px;
+    line-height: 1.5
+}
+
+.more ul {
+    margin: 0;
+    padding-left: 20px;
+    font-size: 14px;
+    line-height: 1.6;
+}
 
 
 
